@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Formulário de Atendimento IJADV</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Formulário de Atendimento Padrão (F.A.P)</h1>
+
+        <h2 class="text-center">Parte I - Atendimento Digisac (Comercial 1)</h2>
+
+        <form action="">
+            <div class="row">
+                <div class="col-12 border text-center">
+                    <label class="font-weight-bold">Responsável pelo atendimento no Digisac:</label>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm border">
+                    <label class="form-check-label" for="">Dr. Igor</label><br>
+                    <input class="form-check form-check-inline" type="radio" name="dr" value="dr_igor">
+                </div>
+                <div class="col-sm border">
+                    <label class="form-check-label" for="">Dr. Lucas</label><br>
+                    <input class="form-check form-check-inline" type="radio" name="dr" value="dr_lucas">
+                </div>
+                <div class="col-sm border">
+                    <label class="form-check-label" for="">Dr. Anne</label><br>
+                    <input class="form-check form-check-inline" type="radio" name="dr" value="dr_anne">
+                </div>
+                <div class="col-sm border">
+                    <label class="form-check-label" for="">Dr. Larissa</label><br>
+                    <input class="form-check form-check-inline" type="radio" name="dr" value="dr_larissa">
+                </div>
+                <div class="col-sm border">
+                    <label class="form-check-label" for="">Dr. Ianne</label><br>
+                    <input class="form-check form-check-inline" type="radio" name="dr" value="dr_ianne">
+                </div>
+                <div class="col-sm border">
+                    <label class="form-check-label" for="">Dr. Norieh</label><br>
+                    <input class="form-check form-check-inline" type="radio" name="dr" value="dr_norieh">
+                </div>
+                <div class="col-sm border">
+                    <label class="form-check-label" for="">Dr. Cláudio</label><br>
+                    <input class="form-check form-check-inline" type="radio" name="dr" value="dr_claudio">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Nome da Lead</label><br>
+                    <input type="text" name="nome_lead">
+                </div>
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Data</label><br>
+                    <input type="date" name="data">
+                </div>
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Hora</label><br>
+                    <input type="time" name="hora">
+                </div>
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Data Atendimento:</label><br>
+                    <input type="date" name="data_atendimento">
+                </div>
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Hora Atendimento:</label><br>
+                    <input type="time" name="hora_atendimento">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm border">
+                    <label class="font-weight-bold">DDD</label><br>
+                    <input type="text" name="ddd">
+                </div>
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Telefone</label><br>
+                    <input type="tel" name="telefone">
+                </div>
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Cidade/UF</label><br>
+                    <input type="text" name="cidade_uf">
+                </div>
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Resposável M1?</label><br>
+                    <div class="row text-center">
+                        <div class="col">
+                            <label class="form-check-label" for="">Sim</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="resp_m1" value="sim">
+                        </div>
+                        <div class="col">
+                            <label class="form-check-label" for="">Não</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="resp_m1" value="nao">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Entrou em atendimento?</label><br>
+                    <div class="row text-center">
+                        <div class="col">
+                            <label class="form-check-label" for="">Sim</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="atendimento" value="sim">
+                        </div>
+                        <div class="col">
+                            <label class="form-check-label" for="">Não</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="atendimento" value="nao">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm border">
+                    <label class="font-weight-bold">A primeira mensagem foi enviada por?</label><br>
+                    <div class="row text-center">
+                        <div class="col">
+                            <label class="form-check-label" for="">Mensagem de Áudio</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="pri_msg" value="audio">
+                        </div>
+                        <div class="col">
+                            <label class="form-check-label" for="">Mensagem de Texto</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="pri_msg" value="texto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center border">
+                <div class="col">
+                    <label class="font-weight-bold">Não respondeu a M1?</label><br>
+                    <label for="">Motivo:</label>
+                    <textarea name="motivo"></textarea>
+                </div>
+            </div>
+            <div class="row text-center border">
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Realizou três tentativas de contato com o lead?</label><br>
+                    <div class="row text-center">
+                        <div class="col border">
+                            <label class="form-check-label" for="">Sim</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="contato_lead" value="sim">
+                        </div>
+                        <div class="col border">
+                            <label class="form-check-label" for="">Não</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="contato_lead" value="nao">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center border">
+                <div class="col">
+                    <label class="font-weight-bold">Não entrou em atendimento?</label><br>
+                    <label for="">Motivo:</label>
+                    <textarea name="motivo"></textarea>
+                </div>
+            </div>
+            <div class="row text-center border">
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Marcou agendamento?</label><br>
+                    <div class="row text-center">
+                        <div class="col border">
+                            <label class="form-check-label" for="">Sim</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="agendamento" value="sim">
+                        </div>
+                        <div class="col border">
+                            <label class="form-check-label" for="">Não</label><br>
+                            <input class="form-check form-check-inline" type="radio" name="agendamento" value="nao">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center border">
+                <div class="col-sm border">
+                    <label class="font-weight-bold">Por qual canal nos conheceu?</label><br>
+                    <div class="row text-center">
+                        <div class="col border">
+                            <label class="form-check-label" for="">Google</label><br>
+                            <input class="form-check form-check-inline" type="checkbox" name="canal" value="google">
+                        </div>
+                        <div class="col border">
+                            <label class="form-check-label" for="">Instagram</label><br>
+                            <input class="form-check form-check-inline" type="checkbox" name="canal" value="instagram">
+                        </div>
+                        <div class="col border">
+                            <label class="form-check-label" for="">Facebook</label><br>
+                            <input class="form-check form-check-inline" type="checkbox" name="canal" value="facebook">
+                        </div>
+                        <div class="col border">
+                            <label class="form-check-label" for="">Site</label><br>
+                            <input class="form-check form-check-inline" type="checkbox" name="canal" value="site">
+                        </div>
+                        <div class="col border">
+                            <label class="form-check-label" for="">Indicação</label><br>
+                            <input class="form-check form-check-inline" type="checkbox" name="canal" value="indicacao">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col-sm border">
+                    <div class="text-center">
+                        <label class="font-weight-bold">Qual benefício o cliente deseja?</label><br>
+                    </div>
+                    <div class="row">
+                        <div class="col border">
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="idadade_urbana">
+                            <label class="form-check-label" for="">Aposentadoria por Idade Urbana</label><br>
+
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="idade_rural">
+                            <label class="form-check-label" for="">Aposentadoria por Idade Rural</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="idade_hibrida">
+                            <label class="form-check-label" for="">Aposentadoria por Idade Híbrida</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="tempo_contibuicao">
+                            <label class="form-check-label" for="">Aposentadoria por Tempo de Contribuição</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="especial">
+                            <label class="form-check-label" for="">Aposentadoria Especial</label><br>
+                        </div>
+                        
+                        <div class="col border">
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="invalidez">
+                            <label class="form-check-label" for="">Aposentadoria por Invalidez</label><br>
+
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="auxilio_doenca_urbano">
+                            <label class="form-check-label" for="">Auxílio-Doença Urbano</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="auxilio-doenca_rural">
+                            <label class="form-check-label" for="">Auxílio-Doença Rural</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="auxilio-acidente">
+                            <label class="form-check-label" for="">Auxílio-Acidente</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="pensao_morte">
+                            <label class="form-check-label" for="">Pensão por Morte</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="auxilio_reclusao">
+                            <label class="form-check-label" for="">Auxílio-reclusão</label><br>
+                        </div>
+
+                        <div class="col border">
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="sal_materinade_urbano">
+                            <label class="form-check-label" for="">Salário Maternidade Urbano</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="sal_materinade_rural">
+                            <label class="form-check-label" for="">Salário Maternidade Rural</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="loas">
+                            <label class="form-check-label" for="">Loas</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="revisao_aposentadoria">
+                            <label class="form-check-label" for="">Revisão de Aposentadoria</label><br>
+                            
+                            <input class="form-check form-check-inline" type="checkbox" name="beneficio" value="revisao_vida_toda">
+                            <label class="form-check-label" for="">Revisão da Vida Toda</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
